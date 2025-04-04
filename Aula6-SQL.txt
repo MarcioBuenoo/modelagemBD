@@ -1,0 +1,10 @@
+Ex1: SELECT * FROM tbfaculdade
+Ex2: SELECT * FROM tbfaculdade order by id desc;
+Ex3: SELECT * FROM tbfaculdade WHERE municipio = 'Jacareí';
+Ex4: SELECT * FROM tbfaculdade WHERE numero is null;
+Ex5: SELECT * FROM tbfaculdade WHERE municipio like 'F%';
+Ex6: SELECT * FROM tbfaculdade WHERE bairro like '%Vila%';
+Ex7: SELECT * FROM tbfaculdade WHERE cep like '_____000%';
+Ex8: SELECT * FROM tbfaculdade WHERE cep like '_5%';
+Ex9: SELECT * FROM tbfaculdade WHERE cep like '_5____2%';
+Ex10: SELECT * FROM tbfaculdade WHERE numero like '__';
